@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>海鮮市集</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- 引入 Bootstrap/js -->
+      <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all">
+       <link href="css/style-seafood.css" type="text/css" rel="stylesheet" media="all">
+  <!-- HTML5 shim and Respond.js 讓 IE8 支援 HTML5 元素與媒體查詢 -->
+        <!-- 警告：Respond.js 無法在 file:// 協定下運作 -->
+        <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<!-- jQuery (Bootstrap 所有外掛均需要使用) -->
+        <script type="text/javascript" src="js/jquery-3.2.0.min.js"></script>
+        <!-- 依需要參考已編譯外掛版本（如下），或各自獨立的外掛版本 -->
+        <script type="text/javascript"  src="js/bootstrap.min.js"></script>
+	<!--navbar-->
+
+	<nav class="navbar navbar-default navbar-fixed-top"role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">海鮮市集</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+ 
+      <ul class="nav navbar-nav navbar-right ">
+        <li><a href="#">首頁</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-shopping-cart"></span>購物車</a></li>
+        <li><a href="#">關於我們</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">登入/註冊 <span class="caret"></span></a>
+          <ul class="dropdown-menu ">
+            <li><a href="#">會員資訊</a></li>
+            <li><a href="#">聯絡客服</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">登出</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+	<!--navbar over-->
+    <!--輪播-->
+ <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="images/imag1.jpg" alt="...">
+      <div class="carousel-caption">
+       <h4>新品上市</h4>
+        加拿大波士頓龍蝦，海鮮愛好者喻為"海鮮之王"，可謂"龍蝦極品"
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/imag2.jpg" alt="...">
+      <div class="carousel-caption">
+       <h4>當季推薦</h4>
+      </div>
+    </div>
+    <div class="item">
+      <img src="images/imag3.jpg" alt="...">
+      <div class="carousel-caption">
+          <h4>嚴選新鮮，急速冷凍，當季直送</h4>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+	<!--輪播 over-->
+    <!--內容-->
+<div class="container">
+<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+<div class="row">
+ <div class="text-center">
+     <h3 >海鮮生鮮</h3>
+     <p>嚴選正當季新鮮食材經漁會專家高品質把關給你大地與海洋的極致風味</p>
+</div>
+<div class="row">
+  <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/fish-1.jpg" alt="...">
+      <div class="caption">
+        <h3>時節海鮮</h3>
+        <p>吃海鮮要跟著季節走”. 吃海鮮最合適的季節是什麼季節. 就. 是. 現. 在. 在這個美好的季節——吃海鮮的大好時機，為大家介紹最適合吃的10種海鮮。</p>
+        <p><a href="#" class="btn btn-primary" role="button">詳細介紹</a>
+         <button type="button" class="btn btn-danger btn-sm" >熱銷商品 </button></p>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/fish-2.jpg" alt="...">
+      <div class="caption">
+        <h3>新鮮螃蟹</h3>
+        <p>肉質厚實具有彈性，細緻潔白，綿密的口感，只要簡單清蒸或悶煮就能帶出螃蟹本身的鮮甜，老饕們的最愛，愛吃螃蟹的您千萬不能錯過這上等美味，超誠意為您呈現！</p>
+        <p><a href="#" class="btn btn-primary" role="button">詳細介紹</a>
+         <button type="button" class="btn btn-danger btn-sm" >熱銷商品 </button></p>
+      </div>
+    </div>
+  </div>
+    <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/fish-3.jpg" alt="...">
+      <div class="caption">
+        <h3>龍蝦鮑魚</h3>
+        <p>
+            因加拿大產地的波士頓龍蝦，特別鮮嫩、香甜多汁、口感絕佳!! 波士
+            頓龍蝦，也是俗稱的"美洲螯龍蝦"，主要分布於大西洋的北美洲海岸， 
+            但尤以加拿大海洋省份的最為鮮美，這可是名貴的海鮮食物喔!!</p>
+        <p><a href="#" class="btn btn-primary" role="button">詳細介紹</a>
+         <button type="button" class="btn btn-danger btn-sm" >熱銷商品 </button></p>
+      </div>
+    </div>
+  </div>
+     <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/fish-4.jpg" alt="...">
+      <div class="caption">
+        <h3>貝殼干貝</h3>
+        <p>頂級S規鮮美干貝，顆顆碩大飽滿，圓潤嫩口高品質，以奶油香煎至雙面金黃，微沾椒鹽與檸檬汁提味，入口滑嫩彈牙，享受舌尖上的海味鮮香，多種料理方式讓您在家輕鬆品嚐五星料裡！</p>
+        <p><a href="#" class="btn btn-primary" role="button">詳細介紹</a>
+         <button type="button" class="btn btn-danger btn-sm" >熱銷商品 </button></p>
+      </div>
+    </div>
+  </div>
+     <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/fish-5.jpg" alt="...">
+      <div class="caption">
+        <h3>蝦類專區</h3>
+        <p>
+           絕不添加任何化學物質與防腐劑，現撈急速真空冷凍，維持蝦肉肥美緊實色澤鮮嫩，外觀也通體薄透有光澤，不論口感、營養成分可說是渾然天成，肉質Q、甜度高，為滋補保健的天然聖品。</p>
+        <p><a href="#" class="btn btn-primary" role="button"> 詳細介紹</a>
+         <button type="button" class="btn btn-danger btn-sm" >熱銷商品 </button></p>
+      </div>
+    </div>
+  </div>
+     <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/fish-6.1.jpg" alt="...">
+      <div class="caption">
+        <h3>透抽小捲</h3>
+        <p>
+        極鮮船釣活凍超大尾透抽，Q彈有勁，越吃越上癮，吃得到新鮮的海味，冷凍保鮮宅配到府，還原剛打撈上岸的鮮甜感動，簡單料理即可上桌，不需複雜調味，就超好吃！</p>
+        <p><a href="#" class="btn btn-primary" role="button">詳細介紹</a>
+         <button type="button" class="btn btn-danger btn-sm" >熱銷商品 </button></p>
+      </div>
+    </div>
+  </div>
+     <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/fish-7.jpg" alt="...">
+      <div class="caption">
+        <h3>海鮮製品</h3>
+        <p>
+        『海鮮干貝醬』嚴選食材，一罐醬，一道菜，還能變出更多好料理~不管是配飯、拌麵或拌菜馬上就能讓簡單料理美味大升級!有SGS檢驗合格報告，100%不含防腐劑、無人工香料添加~讓您食的安心、食的美味!</p>
+        <p><a href="#" class="btn btn-primary" role="button">詳細介紹</a>
+         <button type="button" class="btn btn-danger btn-sm" >熱銷商品 </button></p>
+      </div>
+    </div>
+  </div>
+     <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/fish-8.jpg" alt="...">
+      <div class="caption">
+        <h3>進口水產</h3>
+        <p>來自挪威高緯度海域的鮮美鯖魚，脂肪豐富，含DHA、EPA等營養價值極高，口感細嫩，捕撈後急速冷凍以維持新鮮，給您滿滿健康與活力！多項檢驗證明通過，品質有保障，讓您吃得安心！</p>
+        <p><a href="#" class="btn btn-primary" role="button">詳細介紹</a>
+        <button type="button" class="btn btn-danger btn-sm" >熱銷商品 </button></p>
+      </div>
+    </div>
+  </div>
+     <div class="col-sm-6 col-md-4">
+    <div class="thumbnail">
+      <img src="images/fish-9.jpg" alt="...">
+      <div class="caption">
+        <h3>最後倒數</h3>
+        <p>『現撈海魚歡樂組』
+        船長、漁會專家搭配當日捕撈肥美海魚,漁會HACCP加工廠貼心去鰓鱗冷藏 ,當日現撈24小時冷藏快速出貨宅配,多種搭配，營養美味剛剛好</p>
+        <p><a href="#" class="btn btn-primary" role="button">詳細介紹</a>
+        <button type="button" class="btn btn-danger btn-sm" >熱銷商品 </button></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+	<!--內容 over-->
+	<!--footer--email-->
+	<div class="bg">
+	<div class="container">
+    <div class="row">
+    <div class="col-xs-12">
+        <h4>訂閱電子報</h4>
+    </div>    
+    </div>	    
+	<form class="form-horizontal">
+  <div class="form-group">
+   <div class="col-xs-8 col-sm-10">
+    <label class="sr-only" for="exampleInputEmail3">Email address</label>
+    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="輸入Email">
+    </div>
+    <div class="col-xs-4 col-sm-2" >
+      <button type="submit" class="btn btn-default">送出</button>
+      </div>
+  </div>
+</form>
+</div>
+<!--email over-->
+	<!--尾頁導覽-->
+	<div class="container">
+    <div class="row">
+        <div class="col-xs-12 col-sm-2 col-sm-offset-1">
+          <img src="http://placehold.it/100x100/dddddd/ffffff.png" class="img-responsive" alt="Responsive image">
+        </div>
+          <div class="col-xs-12 col-sm-2 col-sm-offset-1">
+           <h5>商店訊息</h5>
+           <ul class="list-unstyled">
+              <li><a href="#">會員服務條款</a></li>
+              <li><a href="#">隱私權政策</a></li>
+              <li><a href="#">常見問題</a></li>
+           </ul>    
+        </div>
+           <div class="col-xs-12 col-sm-2">
+           <h5>客戶服務</h5>
+           <ul class="list-unstyled">
+              <li><a href="#">商品退/換貨</a></li>
+              <li><a href="#">快速查訂單</a></li>
+              <li><a href="#">留言板</a></li>
+           </ul>    
+        </div>
+          <div class="col-xs-12 col-sm-2">
+           <h5>會員中心</h5>
+           <ul class="list-unstyled">
+              <li><a href="#">會員中心</a></li>
+              <li><a href="#">訂購紀錄</a></li>
+              <li><a href="#">最新消息</a></li>
+           </ul>    
+        </div>
+    </div>
+	</div>
+	</div>
+	
+	
+	<!--尾頁導覽 over-->
+		
+		
+     
+      	
+		
+</body>
+</html>
